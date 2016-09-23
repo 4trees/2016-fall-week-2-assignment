@@ -7,5 +7,45 @@ html,body,h1,h2,h3,h4,p,a,ul,li,div{
 /* Global styles */
 body{
     font-size:16px;
-    font-family:Helvetica,Arial,sans-serif;
+    font-family:Helvetica;
+}
+.content{
+	color: blue;
+	width: 66.66%;
+	float: left;
+}
+.sidebar{
+	color: red;
+	width: 33.33%;
+	float: left;
+}
+.content p, .sidebar p{
+	font:Georgia;	
+}
+header{
+	width: 100%;
+	padding: 20px 0;
+	text-transform:uppercase;
+	font-weight:bolder;
+	border-bottom: 2px solid black;
+}
+.article{
+	padding: 10px 0 15px 0;
+	float: left;
+}
+.article#lead{
+	margin:0 1%;
+	font-size: 1.8em;
+	width: 98%;
+}
+.content .article{
+	border-bottom: 1px solid blue;
+	width: 48%;
+	margin:0 1%;
+}
+.article h2{
+	font-size: 1.2em;
+}
+.sidebar h2{
+	font-size: 1.8em;
 }
